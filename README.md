@@ -2,7 +2,7 @@
 
 
 A 3D deep learning pipeline for binary classification of Autism Spectrum Disorder (ASD) from structural brain MRI scans with integrated explainability through SmoothGrad saliency maps.
-Study title: Interpretable convolutional neural network for autism diagnosis support in children using structural magnetic resonance imaging datasets
+
 
 ## 📋 Overview
 
