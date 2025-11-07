@@ -123,7 +123,7 @@ def save_saliency_map_as_nifti(saliency_map, affine, output_path):
 
 BASE_DIR = "/home/miplab/Desktop/CLEANING/SALIENCY_MAPS"  # Main output directory - CHANGE THIS
 MODEL_PATH = f"{BASE_DIR}/FOLD_MAMI/Best_model_checkpoint_fold_5.model"  # Trained model - CHANGE THIS
-CSV_PATH = f"{BASE_DIR}/FOLD_MAMI/CC_test.csv"  # Subject list CSV - CHANGE THIS
+CSV_PATH = f"{BASE_DIR}/FOLD_MAMI/CC_test.csv"  # CC- Correctly classified subject list CSV - CHANGE THIS
 
 # Output directories for different pipeline stages
 SALIENCY_RAW_DIR = f"{BASE_DIR}/first"              # Stage 1: Raw saliency maps
