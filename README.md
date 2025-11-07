@@ -14,7 +14,6 @@ This repository implements a **Simple Fully Convolutional Network (SFCN)** with 
 - ✅ **Progressive Dropout**: Increasing dropout rates (0.05→0.25) across layers for regularization
 - ✅ **20-Fold Cross-Validation**: Robust evaluation with independent fold training
 - ✅ **Explainability**: SmoothGrad-based saliency maps for interpretable predictions
-- ✅ **Registration Pipeline**: Automated MNI space normalization using NiftyReg
 - ✅ **Reproducibility**: Fixed seed control for deterministic training
 
 ---
@@ -445,7 +444,7 @@ copies or substantial portions of the Software.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **ABIDE Consortium**: For providing open-access autism neuroimaging data
 - **MONAI**: For medical imaging deep learning framework  
